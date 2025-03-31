@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Impossibility of [...] Reflections</title>
+</head>
+<body>
+
+	<h1>the questionnaire</h1>
+	
+	<form id="quiz-form">
+	
+		<!-- klausimas 1 -->
+		<h3>Which of the following is true:</h3>
+		<input type="radio" name="q1" value='<a href="https://www.google.com/maps/search/?api=1&query=54.674829,25.293888" target="_blank">Wall of offerings</a>'>YOLO (you only live once)<br>
+		<input type="radio" name="q1" value='<a href="https://www.google.com/maps/search/?api=1&query=54.672514,25.299051" target="_blank">Shame research and development kilograms</a>'>You live every day, you only die once<br>
+		<input type="radio" name="q1" value='<a href="https://www.google.com/maps/search/?api=1&query=54.675726,25.299521" target="_blank">The doors on the 2nd floor are unlocked</a>'>We live in a simulation<br><br>
+		
+		<!-- klausimas 2 -->
+		<h3>Which of the three (out of four) classical elements do you most indentify with:</h3>
+		<input type="radio" name="q2" value='<a href="https://www.google.com/maps/search/?api=1&query=54.675636,25.300820" target="_blank">Murano</a>'>Fire<br>
+		<input type="radio" name="q2" value='<a href="https://www.google.com/maps/search/?api=1&query=54.676023,25.302483" target="_blank">A cover of a book about the Anthropocene</a>'>Earth<br>
+		<input type="radio" name="q2" value='<a href="https://www.google.com/maps/search/?api=1&query=54.672606,25.295726" target="_blank">Foam accident</a>'>Air<br><br>
+		
+		<!-- klausimas 3 -->
+		<h3>What would you do if you happened to find a bundle with a decent amount of money on the ground in the middle of the day in a busy location with your full name written on it:</h3>
+		<input type="radio" name="q3" value='<a href="https://www.google.com/maps/search/?api=1&query=54.670829,25.298088" target="_blank">Angry dog on the street</a>'>I would quickly take it (I wouldn’t want to impede)<br>
+		<input type="radio" name="q3" value='<a href="https://www.google.com/maps/search/?api=1&query=54.672948,25.299463" target="_blank">A window for toms who peep</a>'>I would slowly take it<br>
+		<input type="radio" name="q3" value='<a href="https://www.google.com/maps/search/?api=1&query=54.675160,25.305096" target="_blank">O / I</a>'>I would stop to examine it, but then would probably leave it because it might be cursed<br><br>
+
+            <!-- klausimas 4 -->
+		<h3>Which of the following is the worst:</h3>
+		<input type="radio" name="q4" value='<a href="https://www.google.com/maps/search/?api=1&query=54.674658,25.294375" target="_blank">Installation made by a textile student</a>'>Constantly stumbling on protruding sidewalk tiles<br>
+		<input type="radio" name="q4" value='<a href="https://www.google.com/maps/search/?api=1&query=54.674670,25.294695" target="_blank">Installation made by a painting student</a>'>Knowing you’ll never be able to read everything you want to<br>
+		<input type="radio" name="q4" value='<a href="https://www.google.com/maps/search/?api=1&query=54.676020,25.300428" target="_blank">Someone had Mcdonald’s here</a>'>Being lactose intolerant<br><br>
+
+            <!-- klausimas 5 -->
+		<h3>A witch lets you choose your own curse. Which of the following do you choose:</h3>
+		<input type="radio" name="q5" value='<a href="https://www.google.com/maps/search/?api=1&query=54.673232,25.304300" target="_blank">Someone had Mcdonald’s here as well</a>'>All your food now comes in the form of a burger (between two buns and all that stuff)<br>
+		<input type="radio" name="q5" value='<a href="https://www.google.com/maps/search/?api=1&query=54.673253,25.304441" target="_blank">A line from documenta fifteen</a>'>You can only walk in straight lines<br>
+		<input type="radio" name="q5" value='<a href="https://www.google.com/maps/search/?api=1&query=54.670089,25.299281" target="_blank">Please do not flag</a>'>You can only wear monochromatic clothes from now on (they have to be either red, orange, yellow, green, blue or purple)<br><br>
+
+            <!-- klausimas 6 -->
+		<h3>Would you rather have your conscience transferred to:</h3>
+		<input type="radio" name="q6" value='<a href="https://www.google.com/maps/search/?api=1&query=54.675280,25.302557" target="_blank">A polypore</a>'>Hyphae (you get to live in the middle of the woods in Sweden)<br>
+		<input type="radio" name="q6" value='<a href="https://www.google.com/maps/search/?api=1&query=54.670290,25.299992" target="_blank">A place to leave unwanted goods</a>'>A worm (you get to feast on apples until you’re found; maybe you can plot a revenge on your enemy who hates biting into an apple and finding a worm)<br>
+		<input type="radio" name="q6" value='<a href="https://www.google.com/maps/search/?api=1&query=54.674804,25.302974" target="_blank">Fly trap</a>'>A fly stuck in a spider web (a Faustian need to learn about and experience all possible things on Earth)<br><br>
+
+            <!-- klausimas 7 -->
+		<h3>Which decade was the best for cinema:</h3>
+		<input type="radio" name="q7" value='<a href="https://www.google.com/maps/search/?api=1&query=54.672133,25.297909" target="_blank">Sonic experience</a>'>1880s<br>
+		<input type="radio" name="q7" value='<a href="https://www.google.com/maps/search/?api=1&query=54.672970,25.294712" target="_blank">A reference of sorts</a>'>1920s<br>
+		<input type="radio" name="q7" value='<a href="https://www.google.com/maps/search/?api=1&query=54.672294,25.292873" target="_blank">TV tower can be seen from this spot</a>'>1990s<br><br>
+		
+		
+		
+
+          <script>
+
+function showAnswers() {
+  var inputs = document.getElementsByTagName('input');
+  var answers = [];
+  for (var i = 0; i < inputs.length; i++) {
+    if (inputs[i].type == 'radio' && inputs[i].checked) {
+      answers.push(inputs[i].value);
+    }
+  }
+
+  // Hide the form
+  document.getElementById('quiz-form').style.display = 'none';
+
+  // Display the answers
+  var answersDisplay = document.getElementById('answers-display');
+  answersDisplay.style.display = 'block';
+  
+  var answerList = "<ul>";
+  for (var j = 0; j < answers.length; j++) {
+    answerList += "<li>" + answers[j] + "</li>";
+  }
+  answerList += "</ul>";
+  answersDisplay.innerHTML = 'Your route goes through: ' + answerList;
+}
+
+
+          </script>
+
+	
+	</form>
+
+	<div id="answers-display" style="display: none;"></div>
+
+	<button type="button" onclick="showAnswers()">Thank you, that's enough</button>
+
+	
+</body>
+</html>
